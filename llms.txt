@@ -1,0 +1,26 @@
+# Gershinen Shanding
+
+> Data scientist and founder based in Abuja, Nigeria, with six years of professional experience across public health data, economic analysis, and applied AI. Founder & CEO of GERANDCO Technology (https://gerandco.tech) and co-founder & CTO of Vetaly (https://vetaly.ng), a veterinary digital health platform. Writes publicly about applied AI, data quality, and data governance in African institutional contexts.
+
+Gershinen Shanding ("Shanding") holds a BSc in Computer Science (University of Jos), is completing a Postgraduate Diploma in Economics (National Open University of Nigeria), and holds a Master's in Data Science from the Nigerian Defence Academy (2026). He is a Registered Member of the Computer Professionals Registration Council of Nigeria (CPN), and holds a Certificate in Applied Data Science (Honors) from WorldQuant University and a Nanodegree in Data Analytics from Udacity. His current roles are Founder & CEO of GERANDCO Technology, co-founder & CTO of Vetaly, AI Consultant at NGEX (part-time), and data science facilitator at Seedbuilders Innovation Hub. Prior roles include Python Data Scientist at eHealth4everyone, Data Scientist at Data-Lead Africa, and Data Analyst at NGEX (an earlier, separate stint).
+
+## Pages
+
+- [About](https://pgshandino.github.io/about.html): Background, professional focus, current roles, and CPN membership.
+- [Projects](https://pgshandino.github.io/projects.html): Case studies including AREAI (a GERANDCO Technology retrieval-augmented generation product), Vetaly (a veterinary digital health platform), OneAgent (a Nigerian personal income tax filing and advisory platform built on FIRS tax rules), a Claude-powered crypto trading decision engine, a customer churn predictive model, and a large-scale async web scraper.
+- [Blog](https://pgshandino.github.io/blogs.html): Technical writing on applied AI, agentic system design, data quality, and imbalanced datasets, published on Medium (@pgshanding) and in CodeX, Python in Plain English, and Data Science Collective.
+- [Testimonials](https://pgshandino.github.io/testimonials.html): Feedback from collaborators.
+
+## Projects
+
+- AREAI / Real-Agent: A GERANDCO Technology (https://gerandco.tech) in-house product — a conversational AI assistant for real estate workflows, built on retrieval-augmented generation (RAG), with a full technical installation guide. Not yet publicly hosted — see the Projects page for current status.
+- Vetaly (https://vetaly.ng): A veterinary digital health platform covering veterinarian connections, health record tracking, and antimicrobial-use (AMU) surveillance. Gershinen is co-founder and CTO, owning its technical platform and product/data analytics instrumentation.
+- OneAgent: A full-stack Nigerian personal income tax (PIT) filing and financial advisory web app implementing FIRS graduated tax bands, built in React.
+- Candleweb crypto trading engine: A Claude-powered crypto trading decision engine with a custom library of 439 technical indicators across 13 families, orchestrated with Agno and served via FastAPI.
+
+## Contact
+
+- Email: pgshandino@gmail.com
+- LinkedIn: https://linkedin.com/in/pgshanding
+- GitHub: https://github.com/pgshandino
+- Medium: https://medium.com/@pgshanding
