@@ -79,6 +79,15 @@
 				},
 				{
 					"@type": "CreativeWork",
+					"position": 8,
+					"name": "ElectionHub — Election Situation Room",
+					"description": "A real-time election monitoring and field-reporting platform for Nigeria's 2027 elections, with an offline-capable PWA for field agents, anomaly detection, and live coordinator dashboards. Pre-launch.",
+					"url": "https://www.electionhub.live/",
+					"creator": { "@type": "Person", "name": "Gershinen Shanding" },
+					"keywords": "PWA, Fastify, Supabase Realtime, Protobuf, Cloudflare, election monitoring"
+				},
+				{
+					"@type": "CreativeWork",
 					"position": 2,
 					"name": "Candleweb Crypto Trading Decision Engine",
 					"description": "A Claude-powered agentic crypto trading decision engine with a custom library of 439 technical indicators across 13 families, orchestrated with Agno and served via FastAPI.",
@@ -228,6 +237,59 @@
 						</details>
 						<div class="project-links">
 							<a href="https://vetaly.ng" class="btn btn--ghost">Visit vetaly.ng</a>
+						</div>
+					</article>
+
+					<!-- ElectionHub -->
+					<article class="project-card">
+						<div class="project-card__top">
+							<div>
+								<h3>ElectionHub &mdash; Election Situation Room</h3>
+								<p class="dek">A real-time election monitoring and field-reporting platform for Nigeria's 2027 elections, covering field result capture, incident verification, and live situation dashboards.</p>
+							</div>
+							<span class="badge badge--dev">Pre-launch</span>
+						</div>
+						<div class="tag-row">
+							<span class="tag tag--ai">AI-first build</span>
+							<span class="tag tag--ai">ChatGPT</span>
+							<span class="tag tag--ai">Claude Code</span>
+							<span class="tag">PWA</span>
+							<span class="tag">Fastify</span>
+							<span class="tag">Supabase Realtime</span>
+							<span class="tag">Protobuf</span>
+							<span class="tag">Cloudflare</span>
+						</div>
+						<details>
+							<summary>Read the case study</summary>
+							<dl class="case-study">
+								<div>
+									<dt>What it does</dt>
+									<dd>Field agents submit election results and incident reports &mdash; GPS-tagged, with media support &mdash; through an offline-capable mobile PWA. Reports are verified, checked for anomalies, and pushed live to state and national coordinator dashboards, which include an interactive map of incidents, LGA-level results, and turnout.</dd>
+								</div>
+								<div>
+									<dt>Architecture</dt>
+									<dd>The PWA captures results and queues them locally when there is no connectivity. Payloads are Protobuf-encoded and synced through Cloudflare's WAF to a Fastify API. Anomaly detection runs on the incoming stream, and Supabase Realtime pushes changes to open dashboards. Every action is timestamped and signed.</dd>
+								</div>
+								<div>
+									<dt>Access model</dt>
+									<dd>An 8-level role-based permission model, with coordinators scoped to their state or to national level. Field agents sign in with one-time email or SMS codes rather than passwords.</dd>
+								</div>
+								<div>
+									<dt>My role</dt>
+									<dd><span class="placeholder">[ADD: your specific role and contributions on ElectionHub]</span></dd>
+								</div>
+								<div>
+									<dt>Status</dt>
+									<dd>Pre-launch. The public site still carries placeholder screenshots and a pre-launch notice.</dd>
+								</div>
+								<div>
+									<dt>How it was built</dt>
+									<dd>AI-first and AI-assisted, orchestrated by me. ChatGPT was my brainstorming partner for options, trade-offs, and first architecture drafts. Claude Code handled implementation. I drafted the architecture, refined the prompts and specifications, and supplied the domain details, so the AI tools did the drafting and building under my direction.</dd>
+								</div>
+							</dl>
+						</details>
+						<div class="project-links">
+							<a href="https://www.electionhub.live/" class="btn btn--ghost">Visit electionhub.live</a>
 						</div>
 					</article>
 
@@ -399,6 +461,36 @@
 						</details>
 					</article>
 
+				</div>
+			</section>
+
+			<section class="section ai-section">
+				<div class="wrap">
+					<div class="section-head">
+						<span class="eyebrow">AI-first, AI-assisted</span>
+						<h2>How I build with AI</h2>
+						<p>AI is my default starting point for building. I lead the work: I set the direction, make the architecture and product calls, and review what the tools produce before it ships.</p>
+					</div>
+					<div class="ai-grid">
+						<div class="ai-card">
+							<span class="ai-step">01</span>
+							<h3>Start with AI</h3>
+							<p>First drafts, prototypes, research, and scaffolding begin with AI tools, so ideas reach a testable version sooner.</p>
+						</div>
+						<div class="ai-card">
+							<span class="ai-step">02</span>
+							<h3>Lead the decisions</h3>
+							<p>Architecture, data model, trade-offs, and what gets built are my calls. AI widens the options; I choose among them.</p>
+						</div>
+						<div class="ai-card">
+							<span class="ai-step">03</span>
+							<h3>Verify before it ships</h3>
+							<p>Outputs are checked against the data, the requirements, and real use, and I trust a result only once I can trace it back to its source.</p>
+						</div>
+					</div>
+					<div class="ai-meta">
+						<p><strong>This portfolio was built the same way.</strong> The site was designed and written with Claude Code, an AI coding assistant, under my direction: I set the structure and content, checked key facts against source documents, and made the design and editorial decisions.</p>
+					</div>
 				</div>
 			</section>
 
