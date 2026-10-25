@@ -8,7 +8,7 @@ Gershinen Shanding ("Shanding") holds a BSc in Computer Science (University of J
 
 - [About](https://pgshandino.github.io/about.html): Background, professional focus, current roles, and CPN membership.
 - [Projects](https://pgshandino.github.io/projects.html): Case studies including AREAI (a GERANDCO Technology retrieval-augmented generation product), Vetaly (a veterinary digital health platform), OneAgent (a Nigerian personal income tax filing and advisory platform built on FIRS tax rules), a Claude-powered crypto trading decision engine, a customer churn predictive model, and a large-scale async web scraper.
-- [Blog](https://pgshandino.github.io/blogs.html): Technical writing on applied AI, agentic system design, data quality, and imbalanced datasets, published on Medium (@pgshanding) and in CodeX, Python in Plain English, and Data Science Collective.
+- [Blog](https://pgshandino.github.io/blogs.html): Technical writing on applied AI, agentic system design, data quality, and imbalanced datasets, published on Medium (@pgshanding) and in CodeX, Python in Plain English, and Data Science Collective. Also links the Nigeria Property Market Brief, a free data report.
 - [Testimonials](https://pgshandino.github.io/testimonials.html): Feedback from collaborators.
 
 ## Projects
